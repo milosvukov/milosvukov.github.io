@@ -1,0 +1,58 @@
+/*#f66d3c*/
+/*#4cff00;*/
+.temp-1 {
+  /*background-color: blue;
+    height:50em;*/
+}
+.home-section-logo {
+  position: absolute;
+  bottom: -17em;
+}
+.background-black-alpha48 {
+  background-color: rgba(0, 0, 0, 0.188);
+}
+.first-section {
+  padding-top: 9em;
+}
+/*HOME SECTION*/
+.home-section {
+  background-color: #4fb5a9;
+  color: white;
+  height: 20em;
+}
+.home-section-banner {
+  height: 20em;
+  background-image: url(../img/HeaderBackground.jpg);
+}
+.home-section-welcometext {
+  text-align: center;
+  font-size: 4em;
+}
+/*PROJECT SECTION*/
+.project-icon {
+  padding-top: 5em;
+  width: 15em;
+  height: 15em;
+}
+.project-label {
+  font-size: 2.5em;
+  padding-top: 0.3em;
+}
+.project-description {
+  font-size: 1.5em;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+}
+.project-section {
+  text-align: center;
+  min-height: 40em;
+}
+/*FOOTER*/
+.footer {
+  background-color: #535757;
+  color: whitesmoke;
+  font-size: 1.5em;
+}
+.link-to {
+  margin: 0.5em;
+}
