@@ -1,9 +1,7 @@
 /*#f66d3c*/
 /*#4cff00;*/
-/*@import url(https://fonts.googleapis.com/css?family=Raleway);*/
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700,300,100,900&subset=latin);
 body {
-  /*font-family: "Raleway";*/
   font-family: "Lato";
 }
 .navbar-brand {
