@@ -26,7 +26,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
       <![endif]-->
 </head>
-<body data-spy="scroll" data-target=".navbar-inverse" data-offset="9">
+<body class="body-section" data-spy="scroll" data-target=".navbar-inverse" data-offset="9">
     <nav class="navbar-inverse navbar-fixed-top">
         <div class="background-black-alpha48">
             <div class="container">
@@ -39,95 +39,82 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>-->
-                    <a class="navbar-brand" href="#">DvaBita</a>
-                </div>
-                <div id="navbar" class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
+                    <img class="logo" src="img/LogoThumbnail.png" />
+                    <!-- <a class="brand-text link" href="#">
+                        <span>DvaBita</span>
+                    </a> -->
                 </div>
             </div>
         </div>
     </nav>
-    <!--Home-->
-    <section id="home" class="home-section">
-        <div class="background-black-alpha48">
-            <div class="home-section-banner">
-                <div class="container first-section">
+    <div class="container container-first">
+        <div class="row">
+            <div class="col-lg-5">
+                <div class="exposed-text">
+                    We want to learn new things, to increase our knowledge.
+                    Here are the products of our learning.
+                </div>
+            </div>
+            <div class="col-lg-7">
+                <div>
+                    <div class="project-top-space"></div>
                     <div class="row">
-                        <div class="col-lg-1">
-                            <img class="home-section-logo" src="img/LogoThumbnail.png" />
+                        <div class="col-lg-3">
+                            <img class="project-icon" src="img/SunIcon.svg" />
                         </div>
-                        <div class="col-lg-11">
-                            <div class="home-section-welcometext">
-                                <!--We build apps ...-->
+                        <div class="col-lg-9">
+                            <div class="project-label">UV Index</div>
+                            <div class="project-description">Displays daily UV index value for your current location.</div>
+                            <div class="project-description-bottom-space"></div>
+                            <div class="project-link">
+                                <span>Get it on</span>
+                                <a class="project-link link project-text-spacebefore-large" href="https://www.microsoft.com/store/apps/9nblggh0dppz">
+                                    <i class="fa fa-windows fa-spaceafter"></i>
+                                    <span>Windows Store</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-top-space"></div>
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <img class="project-icon" src="img/FrameworkIcon.svg" />
+                        </div>
+                        <div class="col-lg-9">
+                            <div class="project-label">UAAA</div>
+                            <div class="project-description">UAAA is a small framework that focuses on business logic and MVVM pattern. Also contains components and base classes that simplify developers everyday tasks.</div>
+                            <div class="project-description-bottom-space"></div>
+                            <div class="project-link">
+                                <span>Get it on</span>
+                                <a class="link project-text-spacebefore-large" href="https://github.com/Headspin/uaaa">
+                                    <i class="fa fa-github fa-spaceafter"></i>
+                                    <span>GitHub</span>
+                                </a>
+                                <span class="project-text-spacebefore">or</span>
+                                <a class="link project-text-spacebefore" href="https://www.nuget.org/packages/Uaaa/">Nuget</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <!--Projects-->
-    <section id="projects" class="project-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-lg-offset-1">
-                    <img class="project-icon" src="img/SunIcon.svg" />
-                    <div class="project-label">UV Index</div>
-                    <div class="project-description">Displays daily UV index value for your current location.</div>
-                    <a class="btn btn-default link-to" href="https://www.microsoft.com/store/apps/9nblggh0dppz">
-                        <i class="fa fa-windows"></i>
-                        Windows Store
-                    </a>
-                </div>
-                <div class="col-lg-4 col-lg-offset-1">
-                    <img class="project-icon" src="img/FrameworkIcon.svg" />
-                    <div class="project-label">UAAA</div>
-                    <div class="project-description">UAAA is a small framework that focuses on business logic and MVVM pattern. Also contains components and base classes that simplify developers everyday tasks.</div>
-                    <a class="btn btn-default link-to" href="https://github.com/Headspin/uaaa">
-                        <i class="fa fa-github"></i>
-                        GitHub
-                    </a>
-                    <a class="btn btn-default link-to" href="https://www.nuget.org/packages/Uaaa/">Nuget</a>
-                </div>
+    </div>
+    <div class="push-footer"></div>
+    <footer>
+        <div id="footer" class="container">
+            <!-- <img class="footer-logo" src="img/LogoThumbnail.png" /> -->
+            <div class="footer-text-normal">
+                <a class="link" href="mailto:dvabita@outlookdotcom">
+                    <i class="fa fa-envelope-o"></i><span class="link-text">dvabita@outlookdotcom</span>
+                </a>
             </div>
-        </div>
-    </section>
-    <!-- Footer -->
-    <footer class="footer navbar-fixed-bottom">
-        <div id="contact" class="container">
-            <div class="row">
-                <!--<div class="col-lg-1">
-                    <img class="" src="img/Logo.png" />
-                </div>-->
-                <div class="col-lg-2 col-lg-offset-4">
-                    &copy; DvaBita 2015
-                </div>
-                <div class="col-lg-1 col-lg-offset-4">
-                    Follow&nbsp;us: <a href="https://twitter.com/_dvabita"><i class="fa fa-twitter"></i></a>
-                </div>
+            <div class="footer-text-normal">
+                <a class="link" href="https://twitter.com/_dvabita">
+                    <i class="fa fa-twitter"></i><span class="link-text">@_dvabita</span>
+                </a>
             </div>
-            <!-- <div class="row">
-                <div class="col-lg-2 col-lg-offset-5">
-                    &copy; DvaBita
-                    <script>document.write(new Date().getFullYear())</script>
-                </div>
-            </div> -->
-            <!--<div class="row">
-                <div class="col-lg-12">
-                    <img class="" src="img/Logo.png" />
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <h4>
-                        &copy; DvaBita
-                        <script>document.write(new Date().getFullYear())</script>
-                    </h4>
-                </div>
-            </div>-->
+            <div class="footer-text-copyright">&copy; DvaBita <script>document.write(new Date().getFullYear())</script></div>
+            <div class="footer-text-disclaimer">Our website doesn't use cookies to improve your experience, we do this.</div>
         </div>
     </footer>
     <!-- Bootstrap core JavaScript
