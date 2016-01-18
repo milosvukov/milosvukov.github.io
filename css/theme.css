@@ -1,58 +1,110 @@
 /*#f66d3c*/
 /*#4cff00;*/
-.temp-1 {
-  /*background-color: blue;
-    height:50em;*/
+.body-section {
+  background-color: #424242;
+  color: rgba(255, 255, 255, 0.87);
 }
-.home-section-logo {
-  position: absolute;
-  bottom: -17em;
+.container-first {
+  margin-top: 15rem;
 }
-.background-black-alpha48 {
-  background-color: rgba(0, 0, 0, 0.188);
+.push-footer {
+  height: 10rem;
 }
-.first-section {
-  padding-top: 9em;
+/*=HEADER=*/
+.logo {
+  width: 10rem;
+  margin-top: 1rem;
 }
-/*HOME SECTION*/
-.home-section {
-  background-color: #4fb5a9;
-  color: white;
-  height: 20em;
+.brand-text {
+  font-variant: small-caps;
+  font-size: 4rem;
+  font-weight: 300;
+  line-height: 4rem;
+  vertical-align: bottom;
+  margin-right: 10rem;
 }
-.home-section-banner {
-  height: 20em;
-  background-image: url(../img/HeaderBackground.jpg);
+.exposed-text {
+  font-size: 7rem;
+  font-weight: 100;
+  line-height: 8.5rem;
 }
-.home-section-welcometext {
-  text-align: center;
-  font-size: 4em;
-}
-/*PROJECT SECTION*/
+/*=PROJECT=*/
 .project-icon {
-  padding-top: 5em;
-  width: 15em;
-  height: 15em;
+  width: 13rem;
+  height: 13rem;
 }
 .project-label {
-  font-size: 2.5em;
-  padding-top: 0.3em;
+  font-size: 4rem;
+  font-weight: 300;
+  line-height: 4rem;
 }
 .project-description {
-  font-size: 1.5em;
-  padding-top: 0.3em;
-  padding-bottom: 0.3em;
+  font-size: 2.5rem;
+  font-weight: 100;
+  margin-top: 1rem;
 }
-.project-section {
-  text-align: center;
-  min-height: 40em;
+.project-top-space {
+  height: 2rem;
 }
-/*FOOTER*/
-.footer {
-  background-color: #535757;
-  color: whitesmoke;
-  font-size: 1.5em;
+.project-description-bottom-space {
+  height: 1rem;
 }
-.link-to {
-  margin: 0.5em;
+.project-link {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.project-text-spacebefore {
+  padding-left: 0.4rem;
+}
+.project-text-spacebefore-large {
+  padding-left: 1.2rem;
+}
+.fa-spaceafter {
+  margin-right: 0.2rem;
+}
+/*=FOOTER=*/
+footer {
+  background-color: #3f3f3f;
+}
+#footer {
+  padding-top: 1rem;
+  height: 15rem;
+}
+.footer-logo {
+  padding-top: 2rem;
+  height: 8rem;
+  padding-bottom: 1rem;
+}
+.footer-text-normal {
+  font-size: 2rem;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.87);
+  padding-bottom: 0.5rem;
+}
+.footer-text-copyright {
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.87);
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+}
+.footer-text-disclaimer {
+  font-size: 1.4rem;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.87);
+  padding-bottom: 1rem;
+}
+.link:link,
+.link:visited,
+.link:active {
+  color: rgba(255, 255, 255, 0.87);
+  text-decoration: none;
+}
+.link:hover {
+  color: rgba(255, 255, 255, 0.87);
+  text-decoration: none;
+}
+.link-text {
+  color: rgba(255, 110, 64, 0.87);
+  margin-left: 1rem;
 }
