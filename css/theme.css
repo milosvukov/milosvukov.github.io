@@ -10,6 +10,14 @@
 .push-footer {
   height: 10rem;
 }
+.align-left {
+  text-align: left;
+  display: block;
+}
+.align-right {
+  text-align: right;
+  display: block;
+}
 /*=HEADER=*/
 .logo {
   width: 10rem;
@@ -26,7 +34,7 @@
 .exposed-text {
   font-size: 7rem;
   font-weight: 100;
-  line-height: 8.5rem;
+  line-height: 7.5rem;
 }
 /*=PROJECT=*/
 .project-icon {
