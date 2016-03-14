@@ -1,0 +1,101 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700,300,100,900&subset=latin);
+[class~="col1"] {
+  border: 1px solid red;
+}
+.test {
+  padding-bottom: 100px;
+}
+.debug-info1 {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
+.debug-info2 {
+  position: fixed;
+  bottom: 30px;
+  right: 0px;
+}
+html {
+  font-size: 16px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  html {
+    font-size: 25px;
+  }
+}
+body {
+  font-family: "Lato";
+  font-weight: 300;
+  line-height: 1.4;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #424242;
+}
+nav {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+a:link,
+a:visited,
+a:active {
+  color: rgba(255, 255, 255, 0.87);
+  text-decoration: none;
+}
+.logo {
+  height: 5rem;
+}
+.exposed-text {
+  font-size: 2rem;
+  font-weight: 100;
+  line-height: 3rem;
+  margin-top: -0.5rem;
+}
+.project-icon {
+  width: 100%;
+  height: auto;
+  max-width: 5rem;
+}
+.project-name {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.project-description {
+  font-size: 1rem;
+}
+.project-links {
+  font-size: 0.8rem;
+}
+.project-links > a:link,
+.project-links > a:visited,
+.project-links > a:active {
+  margin-left: 0.2rem;
+}
+.project-links > a:link > i,
+.project-links > a:visited > i,
+.project-links > a:active > i {
+  margin-right: 0.1rem;
+}
+footer {
+  background-color: #3f3f3f;
+  font-size: 0.6rem;
+  text-align: center;
+}
+footer .links {
+  font-size: 2rem;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+footer .links a {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+footer .copyright {
+  padding-top: 5px;
+}
+footer .claim {
+  padding-top: 5px;
+}
